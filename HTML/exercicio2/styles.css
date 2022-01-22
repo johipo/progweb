@@ -1,0 +1,21 @@
+fieldset{
+    width: 600px;
+    margin-top: 10px;
+}
+
+#email{
+   width: 300px;
+}
+
+#url{
+    margin-bottom: 10px;
+}
+
+#reset{
+    margin-top: 20px;
+}
+
+#msg{
+    width: 580px;
+    height: 80px;
+}
