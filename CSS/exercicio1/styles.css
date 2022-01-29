@@ -1,0 +1,10 @@
+p{
+    border: 10px solid black;
+    padding: 10px 20px 10px 20px;
+    border-bottom-left-radius: 56px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 56px;
+    border-top-left-radius: 10px;
+    background-color:#D3D3D3;
+    display: inline-block;
+}
