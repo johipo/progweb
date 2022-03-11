@@ -1,0 +1,144 @@
+#montanha {
+    border: 1px solid black;
+    position: relative; 
+    overflow: hidden;/*oculta o que esta fora do limite da montanha*/
+}
+
+#skier {
+    position: absolute;/*absoluto em relaçao a montanha*/
+}
+
+.para-frente {
+    background-image: url(skier.png);
+    background-position: -67px -2px;
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 32px;
+}
+
+.para-esquerda {
+    background-image: url(skier.png);
+    background-position: -26px -43px;
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 28px;
+}
+
+.para-direita {
+    background-image: url(skier.png);
+    background-position: -25px -6px;
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 28px;
+}
+
+.caiu{
+    background-image: url(skier.png);
+    background-position: -83px -85px;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 25px;
+}
+
+.morreu {
+    background-image: url(skier.png);
+    background-position: -243px -4px;
+    background-repeat: no-repeat;
+    width: 31px;
+    height: 31px;
+}
+
+.arvore {
+    background-image: url(obstacles.png);
+    background-position: 0px -31px;
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 32px;
+    position: absolute; /*fazer top e left funcionarem*/
+}
+
+.arvore-chamas {
+    background-image: url(obstacles.png);
+    background-position: -72px -103px;
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 27px;
+    position: absolute; /*fazer top e left funcionarem*/
+}
+
+.pedras {
+    background-image: url(obstacles.png);
+    background-position: -30px -52px;
+    background-repeat: no-repeat;
+    width: 23px;
+    height: 11px;
+    position: absolute; /*fazer top e left funcionarem*/
+}
+
+.tocos {
+    background-image: url(obstacles.png);
+    background-position: -253px -52px;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 11px;
+    position: absolute; /*fazer top e left funcionarem*/
+}
+
+.cogumelos {
+    background-image: url(obstacles.png);
+    background-position: -271px -52px;
+    background-repeat: no-repeat;
+    width: 8px;
+    height: 11px;
+    position: absolute; /*fazer top e left funcionarem*/
+}
+
+#fim {
+    position: absolute;
+    font-weight: bold;
+    font-style: italic;
+    font-size: x-large;
+    padding-left: 78px;
+    padding-top: 145px;
+}
+
+#reiniciar {
+    position: absolute;
+    font-weight: bold;
+    font-style: italic;
+    font-size:medium;
+    padding-left: 78px;
+    padding-top: 175px;
+    animation: blinker 2s linear infinite;
+}
+
+#start {
+    position: absolute;
+    font-weight: bold;
+    font-style: italic;
+    font-size: large;
+    padding-left: 50px;
+    padding-top: 175px;
+    animation: blinker 3s linear infinite;
+}
+
+#manual {
+    position: absolute;
+    font-size: medium;
+    padding-left: 50px;
+    padding-top: 240px;
+}
+
+@keyframes blinker {
+    50%{
+        opacity: 0;
+    }
+}
+
+#placar {
+    position: absolute;
+    font-weight: bold;
+    font-style: italic;
+    z-index: 9999;
+
+}
