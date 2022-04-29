@@ -1,3 +1,5 @@
+// Comentário: código impĺementado corretamente. Nota: 2.0 
+
 const fs = require("fs");
 
 var t1 = new Promise(function (resolve, reject){

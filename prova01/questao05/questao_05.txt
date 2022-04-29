@@ -1,3 +1,5 @@
+Comentário: Parão MVC descrito corretamente. Nota: 2.0
+
 O padrão de desenvolvimento MVC é um padrão que organiza e separa a aplicação em 3 partes, deixando-as mais legiveis.
 
 Essas 3 partes são: 
