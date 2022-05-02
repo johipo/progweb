@@ -1,0 +1,16 @@
+h1{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.logo{
+    width: 50px;
+}
+
+table {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}

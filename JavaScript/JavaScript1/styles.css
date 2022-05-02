@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content:space-around;
+}
+table{
+    border: 1px solid #000;  
+    margin: 5px;
+}
+th, td{
+    border: 1px solid #000;
+    text-align: center;
+}
