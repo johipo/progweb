@@ -1,9 +1,0 @@
-Comentário: Parão MVC descrito corretamente. Nota: 2.0
-
-O padrão de desenvolvimento MVC é um padrão que organiza e separa a aplicação em 3 partes, deixando-as mais legiveis.
-
-Essas 3 partes são: 
-
-Model que é responsável pela leitura e escrita dos dados do banco de dados, 
-View que é responsável pelo que o usuário ira ver na página HTML,
-Controller que é responsável por responder o que foi solicitado pelo usuário, utilizando assim o model e o view para requisitar e mostrar o resultado
