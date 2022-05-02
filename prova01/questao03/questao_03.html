@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Instituto da Computação</title>
+</head>
+
+<body>
+    <label for="name">Texto:</label><br>
+    <input type="text" id="name" name="name">
+</body>
+<script type="text/javascript">
+        (function () {
+        window.addEventListener('keydown', (e) => {
+            if((e.key === 'q')||(e.key === 'w')||(e.key === 'x')){
+                e.preventDefault();
+            }
+        })
+        })()
+</script>
+
+</html>
